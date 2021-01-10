@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         body: SingleChildScrollView(
           child: Column(
             children: [
+              Text('data'),
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Image.asset("assets/logo.png"),
